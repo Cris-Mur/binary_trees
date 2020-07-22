@@ -1,6 +1,4 @@
 #include "binary_trees.h"
-#include "13-binary_tree_nodes.c"
-#include "12-binary_tree_leaves.c"
 
 /**
  * binary_tree_sibling - function that finds the sibling of a node
