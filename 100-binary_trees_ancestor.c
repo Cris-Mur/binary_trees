@@ -29,6 +29,12 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tr
         return (NULL);
 }
 
+/**
+ * l_parents - this function set parents of node into array
+ * @node: input binary tree node
+ * Return: array with parents of node and himself
+ */
+
 binary_tree_t **l_parents(binary_tree_t *node)
 {
         binary_tree_t **l_P = NULL;
